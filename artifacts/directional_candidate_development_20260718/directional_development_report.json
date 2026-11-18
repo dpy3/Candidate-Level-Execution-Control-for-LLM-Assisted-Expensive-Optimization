@@ -1,0 +1,988 @@
+{
+  "status": "complete",
+  "prompt_version": "direction-step-v1",
+  "development_fids": [
+    1,
+    2,
+    3,
+    6,
+    8,
+    9,
+    10
+  ],
+  "runs_per_function": 3,
+  "metrics": {
+    "DE_directional": {
+      "events": 21,
+      "candidates": 63,
+      "candidate_improvement_rate": 0.47619047619047616,
+      "event_hit_rate": 0.8095238095238095,
+      "mean_best_normalized_regret": -0.05851744159190612,
+      "median_best_normalized_regret": -0.017544951886361935
+    },
+    "DE_legacy_absolute": {
+      "events": 21,
+      "candidates": 63,
+      "candidate_improvement_rate": 0.0,
+      "event_hit_rate": 0.0,
+      "mean_best_normalized_regret": 3732360.523849583,
+      "median_best_normalized_regret": 1.179330968871047
+    },
+    "PSO_directional": {
+      "events": 21,
+      "candidates": 63,
+      "candidate_improvement_rate": 0.3492063492063492,
+      "event_hit_rate": 0.7142857142857143,
+      "mean_best_normalized_regret": -0.07441471316308014,
+      "median_best_normalized_regret": -0.06313190463700452
+    },
+    "PSO_legacy_absolute": {
+      "events": 21,
+      "candidates": 63,
+      "candidate_improvement_rate": 0.0,
+      "event_hit_rate": 0.0,
+      "mean_best_normalized_regret": 115.34871347439297,
+      "median_best_normalized_regret": 1.1777578508048023
+    }
+  },
+  "quality_gates": {
+    "DE": {
+      "candidate_rate_gain_at_least_0_10": true,
+      "event_hit_gain_at_least_0_10": true,
+      "directional_candidate_rate_at_least_0_20": true
+    },
+    "PSO": {
+      "candidate_rate_gain_at_least_0_10": true,
+      "event_hit_gain_at_least_0_10": true,
+      "directional_candidate_rate_at_least_0_20": true
+    }
+  },
+  "both_backbones_ready": true,
+  "records": [
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.05234500344746338,
+        -0.12075436458254528,
+        0.438239468571033
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        10.087368254811928,
+        0.6288301008766023,
+        0.5165687591681406
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        0.036884926511488336,
+        0.07936787324772357,
+        -0.18722598586331188
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        2.827459657104955,
+        29.534686859726968,
+        6.176746828338207
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.09922983915475556,
+        -0.15796535251384164,
+        0.8224956382429024
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        52.797078904954944,
+        7.879415671936545,
+        6.3585514007212
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 2,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.017544951886361935,
+        0.023408620354209982,
+        0.2712928927925875
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 2,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        4.546812330587165,
+        0.7201740186241034,
+        4.147708808760225
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 2,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.007666893519260802,
+        -0.07897261276573042,
+        0.930200559871723
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 2,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        1.4886253886614575,
+        1.5620627710164237,
+        3.588090241082209
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 2,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.10455428603640711,
+        -0.2213907677486091,
+        0.2943858462508744
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 2,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.6629952056455904,
+        1.6189500278471822,
+        1.3099831350124258
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 3,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        4.291173952208469e-06,
+        -0.00012720054647346064,
+        0.0003257074019856257
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 3,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.0006402828065734949,
+        0.0010239327871598277,
+        0.0007449006220791318
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 3,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -1.8645814521900454e-05,
+        -4.631687635464428e-05,
+        8.779946683842895e-05
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 3,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.0025289868512929476,
+        0.0044614093472723,
+        0.0029408029560956507
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 3,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        -3.3121840213325805e-05,
+        -8.129859106433088e-05,
+        -0.0001487579569902775
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 3,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.0033702486878347112,
+        0.0005039819423336005,
+        0.001404290108848978
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 6,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.10073757623315946,
+        -0.033608854002963436,
+        7.062534063661113
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 6,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        315.08892023036833,
+        87.4541737415547,
+        237.11278212634056
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 6,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        0.23653466859056002,
+        -0.377547454269804,
+        2.571544500309461
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 6,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        73.72114997691621,
+        149.4354682018666,
+        349.23916556431584
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 6,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        0.33490169864477753,
+        1.085233579056732,
+        131.4379024106074
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 6,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        302.31723606194805,
+        330.70276809636846,
+        798.7610468947429
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.7931438429029583,
+        -0.8104617323946559,
+        32764.956894119598
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        3514870.962076789,
+        944.8648003267695,
+        32397857.81211383
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.5721547136500053,
+        -0.763374209093156,
+        397.15793687067145
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        2064377512.580558,
+        78330064.69270791,
+        59024706311.61267
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        1.3445837809059016,
+        6.11267285622366,
+        0.7778644653361567
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        4165450.7847049227,
+        48080.09418472081,
+        66301409.73605584
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 9,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.01814055940690479,
+        -0.020413079622811414,
+        0.1859033574971689
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 9,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.7747648366748652,
+        1.0700801836821507,
+        1.591965342031722
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 9,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.012390631218531256,
+        -0.012833366929555173,
+        -0.008046172882059359
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 9,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        7.150839253199517,
+        2.6098978205700862,
+        1.5459009115094169
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 9,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        0.008322065555342748,
+        0.006518497818896964,
+        0.07345440434671681
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 9,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.9674067454063424,
+        11.577561248798073,
+        1.9341193053671144
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 10,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        0.5363426622727222,
+        0.7470132479677243,
+        0.8707363078602797
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 10,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.07853223937367705,
+        0.4679691696678057,
+        1.132587353159527
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 10,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.0014327044771491526,
+        0.008701741181120532,
+        0.05042869412030176
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 10,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        1.3321514320831025,
+        1.5026717750465945,
+        1.179330968871047
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 10,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        0.05416448498877102,
+        0.2733805447542379,
+        -0.013517163742071962
+      ]
+    },
+    {
+      "backbone": "DE",
+      "fid": 10,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.7326051118793625,
+        0.7341138879957327,
+        1.617532918125622
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        0.021336634107547114,
+        -0.06797721514102657,
+        0.09151284202001651
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        8.69694996842065,
+        0.42456565275560904,
+        0.32638251416793956
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.03900968280770775,
+        0.008473027066480782,
+        -0.06313190463700452
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        2.598920688701438,
+        27.711449919138346,
+        5.748220739605446
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.05958469580407526,
+        -0.14453512205815727,
+        0.974588288592454
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        33.65073349214514,
+        4.7192374061393805,
+        3.739647740449285
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 2,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.019934646159020925,
+        -0.05000037902051982,
+        0.6029073141065383
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 2,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        6.0223209797919575,
+        1.1777578508048023,
+        5.517051850894368
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 2,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.04180106964974651,
+        -0.10029461058732538,
+        0.31923220768094224
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 2,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        1.7647447799153826,
+        1.8463302288309174,
+        4.097150660604447
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 2,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        0.038059975734855415,
+        0.24031769674162093,
+        -0.1678855321256329
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 2,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        3.588363857823179,
+        6.2259352356665545,
+        5.37346583615522
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 3,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        2.605872661329693e-05,
+        0.00017221489508661674,
+        0.0003009850307618289
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 3,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.0011641923575970467,
+        0.0015480432074593152,
+        0.0012688649483038148
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 3,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -1.1604040598973023e-05,
+        2.9771400937574397e-05,
+        -0.00012762814228050166
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 3,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.0020502623789359505,
+        0.0039817621106342784,
+        0.0024618818346142236
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 3,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        -1.3895412745695396e-05,
+        4.4618014880979965e-05,
+        0.00013031822701315698
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 3,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.003811634473417767,
+        0.0009441068479963996,
+        0.0018448110629573672
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 6,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.3636398008674615,
+        -0.2037729688944621,
+        34.1893966983399
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 6,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        1466.8270128649328,
+        409.75601613582927,
+        1104.728013050063
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 6,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.8031486206740549,
+        3.6138630943057413,
+        20.917174072036754
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 6,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        120.64213223304245,
+        243.90109053734255,
+        569.1710814665815
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 6,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        0.40587046409715444,
+        1.6926460534853431,
+        -0.16210462492379252
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 6,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        10.568884567402533,
+        11.651542934444517,
+        29.503849214624356
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        2.385235000258132,
+        1.8481961733623797,
+        -0.7815304200108397
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        2819600.444623919,
+        757.7649809708798,
+        25989295.479347043
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        0.48028581190479985,
+        3.025533997194077,
+        -0.9999981338393688
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        33.871768741433286,
+        0.3231629962873046,
+        996.0540247720661
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        1.9272949443354708,
+        107.5702090099199,
+        74.44513636478027
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        95839.81221110435,
+        1105.2740266452715,
+        1525495.2448534893
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 9,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        0.004636635203546266,
+        0.02046875664467399,
+        0.11287652449548742
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 9,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.6306069034660788,
+        0.901934818905153,
+        1.3814290732626382
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 9,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.0007118144532935357,
+        -0.02367344542376238,
+        0.23325717828748424
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 9,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        8.817239606771622,
+        3.3479242762133907,
+        2.0663982550723503
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 9,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        0.004732182684715127,
+        0.03415615395414554,
+        0.21906178932128198
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 9,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.7644255966671226,
+        10.279909994638304,
+        1.6314005571815018
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 10,
+      "run_id": 0,
+      "source": "directional",
+      "candidate_regrets": [
+        0.07604177501300301,
+        0.04515898590031762,
+        0.8122360188142794
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 10,
+      "run_id": 0,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.06542751715127695,
+        0.4501325881570709,
+        1.106675318397925
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 10,
+      "run_id": 1,
+      "source": "directional",
+      "candidate_regrets": [
+        -0.06322688671325007,
+        0.6742867273135614,
+        1.0029142337570383
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 10,
+      "run_id": 1,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.7619070382628883,
+        0.8907327175482255,
+        0.6464533648779598
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 10,
+      "run_id": 2,
+      "source": "directional",
+      "candidate_regrets": [
+        0.924121908457117,
+        0.24673043630187666,
+        1.452456040343724
+      ]
+    },
+    {
+      "backbone": "PSO",
+      "fid": 10,
+      "run_id": 2,
+      "source": "legacy_absolute",
+      "candidate_regrets": [
+        0.6204917828581121,
+        0.6219029291614372,
+        1.4481577227843974
+      ]
+    }
+  ],
+  "artifact_sha256": "855e94450dcc4e7d6d8778aa01da53cac08f97342a238c7c94d4d500a7431ea7"
+}

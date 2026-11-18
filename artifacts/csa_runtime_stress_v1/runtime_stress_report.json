@@ -1,0 +1,446 @@
+{
+  "protocol_id": "CSA-RUNTIME-STRESS-AND-FAULT-BLOCKING-2026-07-15",
+  "stress": {
+    "repetitions_per_point": 10,
+    "grid": [
+      {
+        "dimension": 2,
+        "semantic_candidates": 1,
+        "repetitions": 10,
+        "median_gate_construction_us": 18.25,
+        "median_issue_evaluate_us_per_candidate": 29.799999999999997,
+        "p95_issue_evaluate_us_per_candidate": 70.955,
+        "median_checker_ms": 0.06455,
+        "median_serialized_trace_bytes": 1490,
+        "bytes_per_candidate": 1491.2
+      },
+      {
+        "dimension": 2,
+        "semantic_candidates": 10,
+        "repetitions": 10,
+        "median_gate_construction_us": 248.25,
+        "median_issue_evaluate_us_per_candidate": 39.34,
+        "p95_issue_evaluate_us_per_candidate": 62.501999999999995,
+        "median_checker_ms": 0.9087,
+        "median_serialized_trace_bytes": 11072,
+        "bytes_per_candidate": 1107.3799999999999
+      },
+      {
+        "dimension": 2,
+        "semantic_candidates": 100,
+        "repetitions": 10,
+        "median_gate_construction_us": 1838.15,
+        "median_issue_evaluate_us_per_candidate": 40.5165,
+        "p95_issue_evaluate_us_per_candidate": 59.20609999999999,
+        "median_checker_ms": 5.99865,
+        "median_serialized_trace_bytes": 107150,
+        "bytes_per_candidate": 1071.518
+      },
+      {
+        "dimension": 2,
+        "semantic_candidates": 1000,
+        "repetitions": 10,
+        "median_gate_construction_us": 12451.15,
+        "median_issue_evaluate_us_per_candidate": 47.68845,
+        "p95_issue_evaluate_us_per_candidate": 56.467495,
+        "median_checker_ms": 71.51255,
+        "median_serialized_trace_bytes": 1070507,
+        "bytes_per_candidate": 1070.5202
+      },
+      {
+        "dimension": 10,
+        "semantic_candidates": 1,
+        "repetitions": 10,
+        "median_gate_construction_us": 28.6,
+        "median_issue_evaluate_us_per_candidate": 38.7,
+        "p95_issue_evaluate_us_per_candidate": 53.50499999999998,
+        "median_checker_ms": 0.09095,
+        "median_serialized_trace_bytes": 2439,
+        "bytes_per_candidate": 2437.8
+      },
+      {
+        "dimension": 10,
+        "semantic_candidates": 10,
+        "repetitions": 10,
+        "median_gate_construction_us": 289.4,
+        "median_issue_evaluate_us_per_candidate": 48.315,
+        "p95_issue_evaluate_us_per_candidate": 71.6655,
+        "median_checker_ms": 1.20135,
+        "median_serialized_trace_bytes": 20577,
+        "bytes_per_candidate": 2057.04
+      },
+      {
+        "dimension": 10,
+        "semantic_candidates": 100,
+        "repetitions": 10,
+        "median_gate_construction_us": 3620.95,
+        "median_issue_evaluate_us_per_candidate": 70.1225,
+        "p95_issue_evaluate_us_per_candidate": 82.7777,
+        "median_checker_ms": 11.7656,
+        "median_serialized_trace_bytes": 202176,
+        "bytes_per_candidate": 2021.586
+      },
+      {
+        "dimension": 10,
+        "semantic_candidates": 1000,
+        "repetitions": 10,
+        "median_gate_construction_us": 37415.5,
+        "median_issue_evaluate_us_per_candidate": 64.55754999999999,
+        "p95_issue_evaluate_us_per_candidate": 78.87123,
+        "median_checker_ms": 137.6668,
+        "median_serialized_trace_bytes": 2019999,
+        "bytes_per_candidate": 2020.1214
+      },
+      {
+        "dimension": 50,
+        "semantic_candidates": 1,
+        "repetitions": 10,
+        "median_gate_construction_us": 137.3,
+        "median_issue_evaluate_us_per_candidate": 150.3,
+        "p95_issue_evaluate_us_per_candidate": 173.35999999999999,
+        "median_checker_ms": 0.4205,
+        "median_serialized_trace_bytes": 7185,
+        "bytes_per_candidate": 7185.6
+      },
+      {
+        "dimension": 50,
+        "semantic_candidates": 10,
+        "repetitions": 10,
+        "median_gate_construction_us": 995.3,
+        "median_issue_evaluate_us_per_candidate": 114.515,
+        "p95_issue_evaluate_us_per_candidate": 157.3705,
+        "median_checker_ms": 3.10245,
+        "median_serialized_trace_bytes": 68055,
+        "bytes_per_candidate": 6806.4
+      },
+      {
+        "dimension": 50,
+        "semantic_candidates": 100,
+        "repetitions": 10,
+        "median_gate_construction_us": 13091.85,
+        "median_issue_evaluate_us_per_candidate": 168.4425,
+        "p95_issue_evaluate_us_per_candidate": 190.5959,
+        "median_checker_ms": 39.7648,
+        "median_serialized_trace_bytes": 676668,
+        "bytes_per_candidate": 6765.684
+      },
+      {
+        "dimension": 50,
+        "semantic_candidates": 1000,
+        "repetitions": 10,
+        "median_gate_construction_us": 109661.9,
+        "median_issue_evaluate_us_per_candidate": 143.74349999999998,
+        "p95_issue_evaluate_us_per_candidate": 160.31643999999997,
+        "median_checker_ms": 365.5892,
+        "median_serialized_trace_bytes": 6765114,
+        "bytes_per_candidate": 6765.340200000001
+      },
+      {
+        "dimension": 100,
+        "semantic_candidates": 1,
+        "repetitions": 10,
+        "median_gate_construction_us": 161.95,
+        "median_issue_evaluate_us_per_candidate": 170.85,
+        "p95_issue_evaluate_us_per_candidate": 373.68,
+        "median_checker_ms": 0.4838,
+        "median_serialized_trace_bytes": 13111,
+        "bytes_per_candidate": 13100.2
+      },
+      {
+        "dimension": 100,
+        "semantic_candidates": 10,
+        "repetitions": 10,
+        "median_gate_construction_us": 1980.7,
+        "median_issue_evaluate_us_per_candidate": 303.895,
+        "p95_issue_evaluate_us_per_candidate": 341.155,
+        "median_checker_ms": 7.4868,
+        "median_serialized_trace_bytes": 127384,
+        "bytes_per_candidate": 12738.52
+      },
+      {
+        "dimension": 100,
+        "semantic_candidates": 100,
+        "repetitions": 10,
+        "median_gate_construction_us": 21526.35,
+        "median_issue_evaluate_us_per_candidate": 243.74650000000003,
+        "p95_issue_evaluate_us_per_candidate": 303.3017,
+        "median_checker_ms": 70.79915,
+        "median_serialized_trace_bytes": 1269931,
+        "bytes_per_candidate": 12698.83
+      },
+      {
+        "dimension": 100,
+        "semantic_candidates": 1000,
+        "repetitions": 10,
+        "median_gate_construction_us": 218013.3,
+        "median_issue_evaluate_us_per_candidate": 265.85275,
+        "p95_issue_evaluate_us_per_candidate": 284.640395,
+        "median_checker_ms": 657.7227,
+        "median_serialized_trace_bytes": 12696862,
+        "bytes_per_candidate": 12696.6742
+      },
+      {
+        "dimension": 500,
+        "semantic_candidates": 1,
+        "repetitions": 10,
+        "median_gate_construction_us": 1245.85,
+        "median_issue_evaluate_us_per_candidate": 1225.65,
+        "p95_issue_evaluate_us_per_candidate": 1471.37,
+        "median_checker_ms": 3.5174,
+        "median_serialized_trace_bytes": 60595,
+        "bytes_per_candidate": 60600.4
+      },
+      {
+        "dimension": 500,
+        "semantic_candidates": 10,
+        "repetitions": 10,
+        "median_gate_construction_us": 12098.65,
+        "median_issue_evaluate_us_per_candidate": 1154.82,
+        "p95_issue_evaluate_us_per_candidate": 1352.6090000000002,
+        "median_checker_ms": 32.3797,
+        "median_serialized_trace_bytes": 601834,
+        "bytes_per_candidate": 60184.9
+      },
+      {
+        "dimension": 500,
+        "semantic_candidates": 100,
+        "repetitions": 10,
+        "median_gate_construction_us": 111861.45,
+        "median_issue_evaluate_us_per_candidate": 1151.0439999999999,
+        "p95_issue_evaluate_us_per_candidate": 1305.28575,
+        "median_checker_ms": 318.9908,
+        "median_serialized_trace_bytes": 6013939,
+        "bytes_per_candidate": 60141.657999999996
+      },
+      {
+        "dimension": 1000,
+        "semantic_candidates": 1,
+        "repetitions": 10,
+        "median_gate_construction_us": 1817.7,
+        "median_issue_evaluate_us_per_candidate": 1741.75,
+        "p95_issue_evaluate_us_per_candidate": 2493.2,
+        "median_checker_ms": 4.9757,
+        "median_serialized_trace_bytes": 119891,
+        "bytes_per_candidate": 119885.0
+      },
+      {
+        "dimension": 1000,
+        "semantic_candidates": 10,
+        "repetitions": 10,
+        "median_gate_construction_us": 19830.85,
+        "median_issue_evaluate_us_per_candidate": 1908.38,
+        "p95_issue_evaluate_us_per_candidate": 2277.165,
+        "median_checker_ms": 57.6694,
+        "median_serialized_trace_bytes": 1195199,
+        "bytes_per_candidate": 119494.1
+      },
+      {
+        "dimension": 1000,
+        "semantic_candidates": 100,
+        "repetitions": 10,
+        "median_gate_construction_us": 157441.15,
+        "median_issue_evaluate_us_per_candidate": 1690.3425000000002,
+        "p95_issue_evaluate_us_per_candidate": 2016.6276999999995,
+        "median_checker_ms": 488.9388,
+        "median_serialized_trace_bytes": 11945741,
+        "bytes_per_candidate": 119455.34599999999
+      }
+    ],
+    "max_dimension": 1000,
+    "max_candidate_count": 1000,
+    "worst_median_issue_evaluate_us_per_candidate": 1908.38,
+    "worst_median_checker_ms": 657.7227,
+    "largest_serialized_trace_bytes": 12696862
+  },
+  "runtime_fault_blocking": {
+    "enforced_fault_classes": 10,
+    "enforced_trials": 1000,
+    "blocked": 1000,
+    "blocked_rate": 1.0,
+    "results": {
+      "unselected issuance": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "unadmitted issuance": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "admission beyond budget": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "token replay": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "candidate replacement": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "forged certificate": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "foreign-gate restart": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "concurrent duplicate consumption": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "concurrent issuance budget cap": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      },
+      "objective exception consumes token": {
+        "trials": 100,
+        "blocked": 100,
+        "blocked_rate": 1.0
+      }
+    },
+    "malicious_host_direct_bypass_control": {
+      "trials": 100,
+      "objective_calls": 100,
+      "blocked_rate": 0.0,
+      "interpretation": "Direct objective access outside the gate is outside the declared trusted-host guarantee."
+    }
+  },
+  "checker_legacy_six_classes": {
+    "protocol_id": "CSA-CHECKER-FAULT-INJECTION-RUNTIME-GATE-2026-07-15",
+    "seed": 20260715,
+    "trials_per_fault": 100,
+    "clean_trials": 100,
+    "clean_passes": 100,
+    "false_positive_rate": 0.0,
+    "fault_trials": 600,
+    "faults_detected": 600,
+    "overall_detection_rate": 1.0,
+    "expected_codes_detected": 600,
+    "expected_code_rate": 1.0,
+    "fault_results": {
+      "forged_state": {
+        "trials": 100,
+        "expected_violation": "admitted_without_selected",
+        "detected": 100,
+        "detection_rate": 1.0,
+        "expected_code_detected": 100,
+        "expected_code_rate": 1.0,
+        "observed_violation_counts": {
+          "admitted_without_selected": 100
+        }
+      },
+      "skipped_admission": {
+        "trials": 100,
+        "expected_violation": "evaluated_without_admitted",
+        "detected": 100,
+        "detection_rate": 1.0,
+        "expected_code_detected": 100,
+        "expected_code_rate": 1.0,
+        "observed_violation_counts": {
+          "evaluated_without_admitted": 100,
+          "authorization_without_admission": 100
+        }
+      },
+      "budget_mismatch": {
+        "trials": 100,
+        "expected_violation": "resource_mismatch",
+        "detected": 100,
+        "detection_rate": 1.0,
+        "expected_code_detected": 100,
+        "expected_code_rate": 1.0,
+        "observed_violation_counts": {
+          "resource_mismatch": 100
+        }
+      },
+      "candidate_id_replacement": {
+        "trials": 100,
+        "expected_violation": "candidate_identity_mismatch",
+        "detected": 100,
+        "detection_rate": 1.0,
+        "expected_code_detected": 100,
+        "expected_code_rate": 1.0,
+        "observed_violation_counts": {
+          "evaluated_without_admitted": 100,
+          "evaluated_without_runtime_authorization": 100,
+          "candidate_identity_mismatch": 100
+        }
+      },
+      "missing_predecessor": {
+        "trials": 100,
+        "expected_violation": "selected_without_validated",
+        "detected": 100,
+        "detection_rate": 1.0,
+        "expected_code_detected": 100,
+        "expected_code_rate": 1.0,
+        "observed_violation_counts": {
+          "selected_without_validated": 100
+        }
+      },
+      "forged_authorization_token": {
+        "trials": 100,
+        "expected_violation": "invalid_runtime_authorization_certificate",
+        "detected": 100,
+        "detection_rate": 1.0,
+        "expected_code_detected": 100,
+        "expected_code_rate": 1.0,
+        "observed_violation_counts": {
+          "invalid_runtime_authorization_certificate": 100,
+          "evaluated_without_runtime_authorization": 100
+        }
+      }
+    }
+  },
+  "checker_extensions": {
+    "additional_fault_classes": 3,
+    "additional_fault_trials": 300,
+    "additional_faults_detected": 300,
+    "clean_trials": 100,
+    "clean_passes": 100,
+    "false_positive_rate": 0.0,
+    "results": {
+      "whole-event truncation": {
+        "trials": 100,
+        "detected": 100,
+        "detection_rate": 1.0,
+        "observed_violation_counts": {
+          "trace_manifest_mismatch": 100
+        }
+      },
+      "missing runtime certificate": {
+        "trials": 100,
+        "detected": 100,
+        "detection_rate": 1.0,
+        "observed_violation_counts": {
+          "evaluated_without_runtime_authorization": 100
+        }
+      },
+      "duplicate runtime certificate": {
+        "trials": 100,
+        "detected": 100,
+        "detection_rate": 1.0,
+        "observed_violation_counts": {
+          "duplicate_runtime_authorization": 100
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "runtime_enforced_faults_blocked": 1000,
+    "runtime_enforced_fault_trials": 1000,
+    "checker_faults_detected": 900,
+    "checker_fault_trials": 900,
+    "checker_false_positive_rate": 0.0,
+    "malicious_host_bypass_blocked": false
+  }
+}

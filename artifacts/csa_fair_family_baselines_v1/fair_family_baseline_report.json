@@ -1,0 +1,182 @@
+{
+  "protocol_id": "CSA-UAV-FAIR-FAMILY-BASELINES-2026-07-15",
+  "scope": "protocol-matched functional baselines; not exact reproductions of external published systems",
+  "manifest_path": "E:\\postgraduate\\second year\\L-ADE-Sniper\\tmp\\app_benchmarks\\lade_proof_20260414_formal_default\\uav\\manifest.json",
+  "proposal_source": "E:\\postgraduate\\second year\\L-ADE-Sniper\\paper\\q1\\experiment_outputs\\cached_proposal_replay_phase3\\capture\\raw",
+  "budget": {
+    "max_fes": 120,
+    "population_size": 12,
+    "max_iter": 8,
+    "llm_call_budget": 2,
+    "llm_cost_budget_usd": 0.05
+  },
+  "seeds": [
+    20260407,
+    20260408,
+    20260409,
+    20260410,
+    20260411
+  ],
+  "policies": {
+    "direct-response-order": {
+      "label": "CSA-fair-direct-response-order",
+      "surrogate_admission_policy": "response_order",
+      "weak_admission_control": false,
+      "role": "protocol-matched direct semantic-injection baseline"
+    },
+    "random-budget-matched": {
+      "label": "CSA-fair-random-budget-matched",
+      "surrogate_admission_policy": "rank_top",
+      "weak_admission_control": true,
+      "role": "budget-matched weak admission control"
+    },
+    "gp-mean-top": {
+      "label": "CSA-fair-gp-mean-top",
+      "surrogate_admission_policy": "mean_top",
+      "weak_admission_control": false,
+      "role": "protocol-matched surrogate mean-ranking baseline"
+    },
+    "csa-lcb-rank-top": {
+      "label": "CSA-fair-lcb-rank-top",
+      "surrogate_admission_policy": "rank_top",
+      "weak_admission_control": false,
+      "role": "fail-closed CSA policy"
+    },
+    "strict-zero": {
+      "label": "CSA-fair-strict-zero",
+      "strict_zero_call": true,
+      "role": "null-semantic numerical-backbone control"
+    }
+  },
+  "summaries": {
+    "direct-response-order": {
+      "runs": 40,
+      "mean_system_cost": 879.6614861593522,
+      "median_system_cost": 887.5918231298185,
+      "strict_feasible_rate": 1,
+      "collision_free_rate": 1,
+      "semantic_evaluations": 120,
+      "runtime_authorizations": 120,
+      "trace_compliant_runs": 40,
+      "mean_case_rank": 3.125
+    },
+    "random-budget-matched": {
+      "runs": 40,
+      "mean_system_cost": 895.6090556338427,
+      "median_system_cost": 886.6508422128804,
+      "strict_feasible_rate": 1,
+      "collision_free_rate": 1,
+      "semantic_evaluations": 120,
+      "runtime_authorizations": 120,
+      "trace_compliant_runs": 40,
+      "mean_case_rank": 3.375
+    },
+    "gp-mean-top": {
+      "runs": 40,
+      "mean_system_cost": 850.3357147344201,
+      "median_system_cost": 846.1199415729175,
+      "strict_feasible_rate": 1,
+      "collision_free_rate": 1,
+      "semantic_evaluations": 120,
+      "runtime_authorizations": 120,
+      "trace_compliant_runs": 40,
+      "mean_case_rank": 2.25
+    },
+    "csa-lcb-rank-top": {
+      "runs": 40,
+      "mean_system_cost": 850.3357147344201,
+      "median_system_cost": 846.1199415729175,
+      "strict_feasible_rate": 1,
+      "collision_free_rate": 1,
+      "semantic_evaluations": 120,
+      "runtime_authorizations": 120,
+      "trace_compliant_runs": 40,
+      "mean_case_rank": 2.25
+    },
+    "strict-zero": {
+      "runs": 40,
+      "mean_system_cost": 966.674492387874,
+      "median_system_cost": 948.4493053893606,
+      "strict_feasible_rate": 1,
+      "collision_free_rate": 1,
+      "semantic_evaluations": 0,
+      "runtime_authorizations": 0,
+      "trace_compliant_runs": 40,
+      "mean_case_rank": 4.0
+    }
+  },
+  "case_means": {
+    "direct-response-order": {
+      "hard_s00": 784.7656030253632,
+      "hard_s01": 979.2454641876831,
+      "hard_s02": 874.685478207322,
+      "hard_s03": 909.572213795814,
+      "hard_s04": 874.5229639143174,
+      "hard_s05": 845.2102959391991,
+      "hard_s06": 833.5493102141295,
+      "hard_s07": 935.7405599909897
+    },
+    "random-budget-matched": {
+      "hard_s00": 829.0292575972497,
+      "hard_s01": 943.5219136658278,
+      "hard_s02": 900.4691279912829,
+      "hard_s03": 943.8617523018784,
+      "hard_s04": 855.0450811534731,
+      "hard_s05": 848.3402709726126,
+      "hard_s06": 928.5240038811294,
+      "hard_s07": 916.0810375072878
+    },
+    "gp-mean-top": {
+      "hard_s00": 749.2610917055438,
+      "hard_s01": 918.0422591839055,
+      "hard_s02": 867.1029355123063,
+      "hard_s03": 901.3703829094061,
+      "hard_s04": 886.915056289647,
+      "hard_s05": 852.4978883079641,
+      "hard_s06": 804.9643964265593,
+      "hard_s07": 822.5317075400288
+    },
+    "csa-lcb-rank-top": {
+      "hard_s00": 749.2610917055438,
+      "hard_s01": 918.0422591839055,
+      "hard_s02": 867.1029355123063,
+      "hard_s03": 901.3703829094061,
+      "hard_s04": 886.915056289647,
+      "hard_s05": 852.4978883079641,
+      "hard_s06": 804.9643964265593,
+      "hard_s07": 822.5317075400288
+    },
+    "strict-zero": {
+      "hard_s00": 1038.0825728793125,
+      "hard_s01": 875.9562362071142,
+      "hard_s02": 973.4277066624188,
+      "hard_s03": 872.49596450448,
+      "hard_s04": 912.5501886858196,
+      "hard_s05": 918.692190342242,
+      "hard_s06": 1105.300451467556,
+      "hard_s07": 1036.8906283540487
+    }
+  },
+  "paired_wilcoxon_lcb_better": {
+    "direct-response-order": {
+      "statistic": 5.0,
+      "pvalue": 0.0390625,
+      "unit": "case mean"
+    },
+    "random-budget-matched": {
+      "statistic": 4.0,
+      "pvalue": 0.02734375,
+      "unit": "case mean"
+    },
+    "gp-mean-top": {
+      "statistic": 0.0,
+      "pvalue": 1.0,
+      "unit": "case mean"
+    }
+  },
+  "fairness_audit": {
+    "paired_runs": 40,
+    "mismatches": [],
+    "all_nonzero_resources_and_proposals_matched": true
+  }
+}

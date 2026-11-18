@@ -1,0 +1,1162 @@
+{
+  "status": "complete",
+  "protocol_sha256": "2f244f74055d8f508176fa39ea92428deb7963a5135ce8dffe8d5f6ded95c4ad",
+  "backbones": {
+    "DE": {
+      "summary": {
+        "runs": 32,
+        "wins": 6,
+        "ties": 20,
+        "losses": 6,
+        "negative_transfer_rate": 0.1875,
+        "negative_transfer_wilson_95": [
+          0.08889544689565954,
+          0.3530915520137596
+        ],
+        "abstention_rate": 0.46875,
+        "semantic_evaluations": 17,
+        "committed_candidates": 12,
+        "mean_relative_change": 0.1327252627585531,
+        "mean_bootstrap_95": [
+          -0.04929074653641595,
+          0.4215398862197665
+        ],
+        "candidate_improvement_rate": 0.5416666666666666,
+        "event_hit_rate": 0.8125,
+        "all_traces_csa_compliant": true
+      },
+      "success_gates": {
+        "evaluated_semantic_candidates_nonzero": true,
+        "wins_exceed_losses": false,
+        "negative_transfer_rate_at_most_0_25": true,
+        "mean_effect_bootstrap_upper_below_zero": false,
+        "all_traces_csa_compliant": true
+      },
+      "claim_eligible": false
+    },
+    "PSO": {
+      "summary": {
+        "runs": 32,
+        "wins": 12,
+        "ties": 17,
+        "losses": 3,
+        "negative_transfer_rate": 0.09375,
+        "negative_transfer_wilson_95": [
+          0.032401551298366194,
+          0.24218154728387864
+        ],
+        "abstention_rate": 0.40625,
+        "semantic_evaluations": 19,
+        "committed_candidates": 15,
+        "mean_relative_change": -0.05175904012843336,
+        "mean_bootstrap_95": [
+          -0.11779842562017397,
+          0.003382925579866649
+        ],
+        "candidate_improvement_rate": 0.4375,
+        "event_hit_rate": 0.84375,
+        "all_traces_csa_compliant": true
+      },
+      "success_gates": {
+        "evaluated_semantic_candidates_nonzero": true,
+        "wins_exceed_losses": true,
+        "negative_transfer_rate_at_most_0_25": true,
+        "mean_effect_bootstrap_upper_below_zero": false,
+        "all_traces_csa_compliant": true
+      },
+      "claim_eligible": false
+    }
+  },
+  "records": [
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 6,
+      "strict_objective": -199.42579158827186,
+      "semantic_objective": -199.42579158827186,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.007060777083027137,
+        -0.01294480200758765,
+        -0.008623722241275767
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 7,
+      "strict_objective": -989.6713992566655,
+      "semantic_objective": -993.0673278612178,
+      "relative_change": -0.0034313698537746483,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.0014531428551546933,
+        -0.002653714766737228,
+        0.01288448141564298
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 8,
+      "strict_objective": -36.76773492413575,
+      "semantic_objective": -32.81584419784429,
+      "relative_change": 0.1074825722728241,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.04479239435811966,
+        -0.22398953613212175,
+        -0.08247798905977684
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 9,
+      "strict_objective": -98.55583781573353,
+      "semantic_objective": -98.55583781573353,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.005729982778526553,
+        0.02953910376811241,
+        0.08261387433934365
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 10,
+      "strict_objective": 6.820591191900059,
+      "semantic_objective": 6.820591191900059,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.028121497171985713,
+        0.03198395217216471,
+        0.26816226041581614
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 11,
+      "strict_objective": 243.6914046595361,
+      "semantic_objective": 242.03630538503086,
+      "relative_change": -0.0067917835543588,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.0026834441940420005,
+        -0.0034985977999113533,
+        -0.016110224390811362
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 12,
+      "strict_objective": 427.9988447098058,
+      "semantic_objective": 424.9350910743401,
+      "relative_change": -0.0071583222088904865,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.004619387521497323,
+        -0.010533233120875951,
+        -0.0032820067479784657
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 1,
+      "instance": 13,
+      "strict_objective": -74.87434275089653,
+      "semantic_objective": -74.62729884679871,
+      "relative_change": 0.00329944671327167,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.010601456000824428,
+        -0.01898955887261293,
+        0.17463498120161625
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 6,
+      "strict_objective": 480.6027553827821,
+      "semantic_objective": 2360.729226290457,
+      "relative_change": 3.9120176691667625,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.09394195962177053,
+        -0.2903139693736339,
+        2.407314323783476
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 7,
+      "strict_objective": 284.8646678713757,
+      "semantic_objective": 284.8646678713757,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.06834617798281699,
+        0.3591603256726469,
+        0.8336517686761709
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 8,
+      "strict_objective": 316.6022000205021,
+      "semantic_objective": 457.8600709829209,
+      "relative_change": 0.446168317697323,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.025887121547500655,
+        -0.3655712069246958,
+        -0.2168976591154788
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 9,
+      "strict_objective": 801.2166665203383,
+      "semantic_objective": 801.2166665203383,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.19732503533594045,
+        -0.2249634112759623,
+        2.285888031367858
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 10,
+      "strict_objective": 2384.6939901579444,
+      "semantic_objective": 2384.6939901579444,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.05704584125295736,
+        -0.09179659989676821,
+        0.43640404931162585
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 11,
+      "strict_objective": 1670.029767965183,
+      "semantic_objective": 3052.155288387597,
+      "relative_change": 0.8276053199377633,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.14692258743340647,
+        -0.25114357973030843,
+        0.4394441525140523
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 12,
+      "strict_objective": 437.3081059564201,
+      "semantic_objective": 111.02232492332149,
+      "relative_change": -0.7461233317857012,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.008689255921213708,
+        -0.23224561180024145,
+        1.1828503531045926
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 8,
+      "instance": 13,
+      "strict_objective": 625.3625929289784,
+      "semantic_objective": 625.3625929289784,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.15317060803464566,
+        -0.2608224032601284,
+        -0.429960519752546
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 6,
+      "strict_objective": 172.2571585613617,
+      "semantic_objective": 172.2571585613617,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.04569489380844653,
+        0.12507953350281453,
+        0.27226848328556696
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 7,
+      "strict_objective": 396.7482155506095,
+      "semantic_objective": 396.7482155506095,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.027919169904055765,
+        -0.08841230459775308,
+        0.002713371765135081
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 8,
+      "strict_objective": 24.651901752574105,
+      "semantic_objective": 24.651901752574105,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.2351475496346523,
+        2.1242686935165187,
+        3.4960152117181136
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 9,
+      "strict_objective": 233.14615298468146,
+      "semantic_objective": 233.14615298468146,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        0.16973457037789313,
+        0.07999605730565143,
+        0.3318890819351415
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 10,
+      "strict_objective": 1085.695396680895,
+      "semantic_objective": 1085.695396680895,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.002069219433014138,
+        0.012934791364538744,
+        -0.021543502943291732
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 11,
+      "strict_objective": -20.54024505333966,
+      "semantic_objective": -29.024893603308442,
+      "relative_change": -0.4130743585549021,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        0.5055157963701303,
+        -0.36112892773676425,
+        0.9514058922728521
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 12,
+      "strict_objective": 672.6756755352768,
+      "semantic_objective": 672.6756755352768,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.011668068172317709,
+        0.04222897656180477,
+        0.16673598277450316
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 15,
+      "instance": 13,
+      "strict_objective": 270.1657702143086,
+      "semantic_objective": 308.60963296703284,
+      "relative_change": 0.14229731147002328,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.04453229109724673,
+        -0.004184205830471205,
+        -0.0610652444607
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 6,
+      "strict_objective": 986.732626454705,
+      "semantic_objective": 986.732626454705,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.003020960633588908,
+        -0.0008447954471914411,
+        0.02845256666937517
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 7,
+      "strict_objective": 144.50179663327614,
+      "semantic_objective": 144.50179663327614,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.0010917793560956352,
+        -0.024126298520582675,
+        0.09065008684137152
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 8,
+      "strict_objective": -454.90534414494016,
+      "semantic_objective": -461.76671012183436,
+      "relative_change": -0.01508306302664157,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.0004609509708266909,
+        -0.0029384695028302384,
+        0.037621435711646396
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 9,
+      "strict_objective": -49.600875297096444,
+      "semantic_objective": -49.600875297096444,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.7200154912522382,
+        -1.5137097565965705,
+        2.4423111500120323
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 10,
+      "strict_objective": 315.705561054072,
+      "semantic_objective": 315.705561054072,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        4.584558548746157e-05,
+        0.0019704691920389445,
+        0.0068450312612158394
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 11,
+      "strict_objective": 153.25775178727042,
+      "semantic_objective": 153.25775178727042,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.0061786355984030745,
+        0.007721830013551141,
+        0.006220889594113199
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 12,
+      "strict_objective": -185.9467596349037,
+      "semantic_objective": -185.9467596349037,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.014408196517182113,
+        0.0027917124441064565,
+        -0.0299342412115049
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "DE",
+      "fid": 21,
+      "instance": 13,
+      "strict_objective": 2.7603902064144616,
+      "semantic_objective": 2.7603902064144616,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        0.14827481826248787,
+        -0.48592880150116996,
+        2.685810961932148
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 6,
+      "strict_objective": -190.35830691299756,
+      "semantic_objective": -189.06846691245389,
+      "relative_change": 0.006775853502065412,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.014628553658381033,
+        0.003455322835153916,
+        -0.07375667220761312
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 7,
+      "strict_objective": -994.5743927471894,
+      "semantic_objective": -994.5743927471894,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.0010153316725655843,
+        0.003624159657151002,
+        0.0019796779134191524
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 8,
+      "strict_objective": -33.57860266786801,
+      "semantic_objective": -33.57860266786801,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.021297012245599635,
+        0.27016601854961003,
+        0.10405581001618722
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 9,
+      "strict_objective": -92.55750367022104,
+      "semantic_objective": -96.17105024319628,
+      "relative_change": -0.03904109801675476,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.03523841089552917,
+        -0.005487671537511832,
+        -0.028526701981987933
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 10,
+      "strict_objective": 6.990488791976251,
+      "semantic_objective": 6.990488791976251,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.018469805975088897,
+        -0.05385951115351458,
+        0.11702230913189011
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 11,
+      "strict_objective": 223.65403830093982,
+      "semantic_objective": 222.72004146979833,
+      "relative_change": -0.0041760785462980855,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        0.001582923932538716,
+        0.026525465907888554,
+        -0.011087133891517829
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 12,
+      "strict_objective": 434.76061512226084,
+      "semantic_objective": 431.584803339975,
+      "relative_change": -0.007304736610957193,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.004448274868211868,
+        -0.007881123522254122,
+        0.01176030140856433
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 1,
+      "instance": 13,
+      "strict_objective": -75.76003697948269,
+      "semantic_objective": -77.06720774333587,
+      "relative_change": -0.017254093529642637,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.019959406855087368,
+        -0.013023645503789648,
+        0.04606066511456934
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 6,
+      "strict_objective": 944.7648517887446,
+      "semantic_objective": 944.7648517887446,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.11726644770730683,
+        -0.09315611010807111,
+        -0.2998223985315468
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 7,
+      "strict_objective": 1973.745129483887,
+      "semantic_objective": 1973.745129483887,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.1382751008866831,
+        0.027287053362860532,
+        -0.4636063289764815
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 8,
+      "strict_objective": 1632.9464111816621,
+      "semantic_objective": 812.4372544840332,
+      "relative_change": -0.5024715759679322,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.22775804989162482,
+        -0.5300455504770387,
+        1.8876735879852233
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 9,
+      "strict_objective": 1198.1637721647346,
+      "semantic_objective": 1198.1637721647346,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.11559595666917634,
+        0.2503585625592522,
+        -0.028234244388299735
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 10,
+      "strict_objective": 1678.8826956578098,
+      "semantic_objective": 1264.8617762348701,
+      "relative_change": -0.246605031127991,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        0.024089782254750038,
+        -0.09784289158110111,
+        0.001862788889906984
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 11,
+      "strict_objective": 210.55290465345072,
+      "semantic_objective": 285.66818196078464,
+      "relative_change": 0.3567525104009666,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.1969074170570738,
+        0.11610186117941289,
+        0.26598882385167105
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 12,
+      "strict_objective": -20.986109118801892,
+      "semantic_objective": -20.986109118801892,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.19442249125176791,
+        0.09009773116374208,
+        4.718428518183276
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 8,
+      "instance": 13,
+      "strict_objective": 560.4067121544106,
+      "semantic_objective": 502.91806086778155,
+      "relative_change": -0.1025838021561544,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.05621765899999207,
+        -0.1611098163114378,
+        0.8639317310394763
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 6,
+      "strict_objective": 239.69657123622954,
+      "semantic_objective": 239.69657123622954,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.06826958537206508,
+        0.08333606349672054,
+        0.0532160824951011
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 7,
+      "strict_objective": 307.54837453728635,
+      "semantic_objective": 307.54837453728635,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.07251834626928041,
+        0.06288260545926634,
+        0.0853774811789217
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 8,
+      "strict_objective": -42.576044108681145,
+      "semantic_objective": -53.763650729946434,
+      "relative_change": -0.2627676397719666,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.3748312680741698,
+        -0.5822488243599657,
+        1.4453507888808952
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 9,
+      "strict_objective": 253.09292815777846,
+      "semantic_objective": 253.09292815777846,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.052524399361880164,
+        -0.07262898265430727,
+        0.3843184392238504
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 10,
+      "strict_objective": 1099.9145200729263,
+      "semantic_objective": 1099.9145200729263,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.019387816299899423,
+        0.05712399939756185,
+        0.02664502982796012
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 11,
+      "strict_objective": 33.961431542286505,
+      "semantic_objective": 31.215711114803185,
+      "relative_change": -0.08084819463704092,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.18078001314890174,
+        -0.004232986228110367,
+        -0.008439466099098797
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 12,
+      "strict_objective": 691.4618579588831,
+      "semantic_objective": 691.4618579588831,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.03044687661600882,
+        0.054485530327791555,
+        -0.04784140699526395
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 15,
+      "instance": 13,
+      "strict_objective": 251.45401963629348,
+      "semantic_objective": 251.45401963629348,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.10110950697246976,
+        0.07643614282780498,
+        -0.006726738404502477
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 6,
+      "strict_objective": 994.5430379286904,
+      "semantic_objective": 993.1854222520207,
+      "relative_change": -0.0013650647834177433,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.001950200250887087,
+        -0.0020701805696192203,
+        0.005557760897534202
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 7,
+      "strict_objective": 147.48705662779008,
+      "semantic_objective": 147.48705662779008,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        -0.004318099109282199,
+        0.028054845099417854,
+        0.07987381921710646
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 8,
+      "strict_objective": -463.5640895234238,
+      "semantic_objective": -460.4694923166255,
+      "relative_change": 0.006675662064289141,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.006131941271349171,
+        0.05143425965543218,
+        0.006177558970753098
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 9,
+      "strict_objective": -48.79005730569122,
+      "semantic_objective": -48.79005730569122,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        0.10903477136495046,
+        0.3751034861871202,
+        -0.5991830867265493
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 10,
+      "strict_objective": 309.2181282042858,
+      "semantic_objective": 305.87238505639675,
+      "relative_change": -0.01082000970421328,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.019389389379021425,
+        -0.056612881598575096,
+        0.04971466939502401
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 11,
+      "strict_objective": 126.26754927007713,
+      "semantic_objective": 126.26754927007713,
+      "relative_change": 0.0,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 0,
+      "candidate_regrets": [
+        0.0044815589632386235,
+        0.0825223527601118,
+        0.08914688327902659
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 12,
+      "strict_objective": -173.04799334065757,
+      "semantic_objective": -173.04799334065757,
+      "relative_change": 0.0,
+      "semantic_evaluations": 0,
+      "abstained": true,
+      "committed": 0,
+      "candidate_regrets": [
+        0.002247250945499588,
+        -0.007728046112793849,
+        0.10857268447560349
+      ],
+      "csa_compliant": true
+    },
+    {
+      "backbone": "PSO",
+      "fid": 21,
+      "instance": 13,
+      "strict_objective": 4.980955444239603,
+      "semantic_objective": 1.2389828546164505,
+      "relative_change": -0.7512559852248197,
+      "semantic_evaluations": 1,
+      "abstained": false,
+      "committed": 1,
+      "candidate_regrets": [
+        -0.15917807364241748,
+        0.1113561541826726,
+        0.8445215467443178
+      ],
+      "csa_compliant": true
+    }
+  ],
+  "any_backbone_claim_eligible": false,
+  "artifact_sha256": "9fd6744f50e6d99a5c6b9e63bc4e8ba3b5793df588917fad11b5183897135890"
+}

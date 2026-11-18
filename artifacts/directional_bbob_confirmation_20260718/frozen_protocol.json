@@ -1,0 +1,77 @@
+{
+  "protocol_id": "CSA-DIRECTIONAL-BBOB-CONFIRMATION-2026-07-18",
+  "status": "frozen_before_capture",
+  "benchmark": {
+    "family": "BBOB",
+    "implementation": "IOHprofiler ioh",
+    "ioh_version": "0.3.22",
+    "dimension": 10,
+    "function_ids": [
+      1,
+      8,
+      15,
+      21
+    ],
+    "function_roles": {
+      "1": "Sphere",
+      "8": "Rosenbrock",
+      "15": "rotated Rastrigin",
+      "21": "Gallagher 101 peaks"
+    },
+    "instances": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "directional_source": {
+    "model_id": "gpt-5.4",
+    "prompt_version": "direction-step-v1",
+    "one_backbone_specific_call_per_case": true,
+    "proposals_per_call": 3,
+    "output_contract": "direction plus local step scale; no absolute coordinates",
+    "host_candidate_construction": true
+  },
+  "backbones": {
+    "DE": {
+      "state_budget": 60,
+      "final_budget": 241,
+      "risk_multiplier": 1.0
+    },
+    "PSO": {
+      "state_budget": 60,
+      "final_budget": 191,
+      "risk_multiplier": 0.5
+    }
+  },
+  "admission": {
+    "rule": "minimum GP upper regret must be <= 0",
+    "reserved_evaluation": 1,
+    "strict_zero_reserved_action": "incumbent re-evaluation",
+    "commit_rule": "population commit only after true incumbent improvement",
+    "runtime_authorization": "one-use certificate"
+  },
+  "development_boundary": {
+    "family": "CEC 2022 only",
+    "candidate_quality": {
+      "DE_improvement_rate": 0.47619047619047616,
+      "PSO_improvement_rate": 0.3492063492063492
+    },
+    "risk_policy": {
+      "DE": "k=1.0",
+      "PSO": "k=0.5"
+    }
+  },
+  "success_gate": {
+    "evaluated_semantic_candidates_nonzero": true,
+    "wins_exceed_losses": true,
+    "negative_transfer_rate_at_most_0_25": true,
+    "mean_effect_bootstrap_upper_below_zero": true,
+    "all_traces_csa_compliant": true
+  },
+  "stopping_rule": "execute all 40 backbone-case pairs; no BBOB retuning or function substitution",
+  "claim_rule": "Backbone-specific effectiveness is eligible only for a backbone passing every frozen gate.",
+  "protocol_sha256": "c4e0c60f5949ebd8ec2c2d2d2f8b4fdfbc1c54c28b6c69584effbc9f903c8450"
+}

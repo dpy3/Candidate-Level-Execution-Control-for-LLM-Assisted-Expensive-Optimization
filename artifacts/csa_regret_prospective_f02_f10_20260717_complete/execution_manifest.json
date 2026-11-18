@@ -1,0 +1,58 @@
+{
+  "manifest_id": "CSA-PROSPECTIVE-F02-F10-EXECUTION-MANIFEST-2026-07-17",
+  "parent_protocol_sha256": "f833ef1444a1f613d2c1d9ab4062faa366f09aa114d09d702b6e86ae34a6ff1b",
+  "status": "frozen_before_capture",
+  "capture": {
+    "host_backbone": "DE",
+    "dimension": 10,
+    "evaluation_budget": 80,
+    "population_size": 12,
+    "calls_per_run": 2,
+    "force_initial_call": true,
+    "force_call_each_generation_until_budget": true,
+    "surrogate_min_history": 12,
+    "surrogate_policy": "rank_top",
+    "surrogate_unavailable_policy": "reject",
+    "persist_objective_labels": false,
+    "persist_incumbent_state": false,
+    "persist_raw_response": false
+  },
+  "execution": {
+    "test_fids": [
+      2,
+      10
+    ],
+    "runs_per_case": 5,
+    "seed_base": 20260717,
+    "de_population_size": 12,
+    "de_budget": 240,
+    "pso_population_size": 10,
+    "pso_budget": 200,
+    "policies": [
+      "strict-zero",
+      "rank_top",
+      "calibrated_regret"
+    ],
+    "proposal_reuse": "same sanitized stream for all policies and both backbones",
+    "resume_rule": "reuse only artifacts with matching protocol and manifest hashes"
+  },
+  "credential_boundary": {
+    "key_env": "CSA_PROSPECTIVE_API_KEY",
+    "base_url_env": "CSA_PROSPECTIVE_BASE_URL",
+    "rotation_ack_env": "CSA_PROSPECTIVE_KEY_ROTATED",
+    "exposed_key_risk_ack_env": "CSA_PROSPECTIVE_EXPOSED_KEY_ACCEPTED",
+    "accepted_ack_modes": [
+      "rotated",
+      "user-accepted-exposed-key-risk"
+    ],
+    "generic historical key variables are ignored": true,
+    "credentials are never serialized": true
+  },
+  "analysis": {
+    "unit": "paired run",
+    "coverage_source": "offline scoring of each frozen proposal pool after all declared runs",
+    "no_early_stopping": true,
+    "no_threshold_refit": true
+  },
+  "manifest_sha256": "68394bd22333af9e52666a195e700478702d6fcb4cf8101690cb019eceb6c388"
+}

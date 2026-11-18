@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "Candidate-Level Execution Control for LLM-Assisted Expensive Optimization"
+authors:
+  - family-names: "Pan"
+    given-names: "Jeng-Shyang"
+  - family-names: "Duan"
+    given-names: "Peng-Yu"
+  - family-names: "Chu"
+    given-names: "Shu-Chuan"
+  - family-names: "Meng"
+    given-names: "Zhenyu"
+  - family-names: "Snášel"
+    given-names: "Václav"
+year: 2026
+license: MIT

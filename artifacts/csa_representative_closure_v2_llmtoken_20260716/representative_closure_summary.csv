@@ -1,0 +1,5 @@
+domain,paired_runs,successful_calls,semantic_evaluations,numerically_authorized,runtime_authorized,wins,ties,losses,paired_effect
+CEC2022,9,9,20,20,20,5,0,4,"median relative change -0.23%"
+WSN,6,48,56,56,56,2,0,4,"mean absolute ALE change +5.42e-7"
+UAV,6,6,12,12,12,3,1,2,"mean system-cost change -2.45%"
+Total,21,63,88,88,88,,,,"no trace violations"

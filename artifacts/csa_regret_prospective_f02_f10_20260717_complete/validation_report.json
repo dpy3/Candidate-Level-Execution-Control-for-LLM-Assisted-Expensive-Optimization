@@ -1,0 +1,29 @@
+{
+  "protocol_sha256_valid": true,
+  "manifest_sha256_valid": true,
+  "function_checks": {
+    "F02": {
+      "available": true,
+      "probe_finite": true
+    },
+    "F10": {
+      "available": true,
+      "probe_finite": true
+    }
+  },
+  "dedicated_credentials": {
+    "key_present": false,
+    "base_url_present": false,
+    "rotation_acknowledged": false,
+    "exposed_key_risk_acknowledged": false,
+    "capture_ready": false
+  },
+  "proposal_cache": {
+    "expected": 10,
+    "present": 10,
+    "valid_expected": 10,
+    "invalid_expected_files": []
+  },
+  "live_api_called": false,
+  "execution_ready_without_capture": true
+}

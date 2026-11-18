@@ -1,0 +1,286 @@
+{
+  "protocol_sha256": "f833ef1444a1f613d2c1d9ab4062faa366f09aa114d09d702b6e86ae34a6ff1b",
+  "manifest_sha256": "68394bd22333af9e52666a195e700478702d6fcb4cf8101690cb019eceb6c388",
+  "status": "complete",
+  "proposal_capture": {
+    "calls": 20,
+    "total_cost_usd": 0.0164031,
+    "total_tokens": 109285,
+    "labels_persisted": false
+  },
+  "coverage": {
+    "DE": {
+      "n": 60,
+      "empirical_coverage": 1.0,
+      "coverage_error": 0.09999999999999998,
+      "mean_interval_half_width": 1.707504632940674,
+      "normalized_rmse": 0.5407989228650714,
+      "beneficial_class_rate": 0.6
+    },
+    "PSO": {
+      "n": 60,
+      "empirical_coverage": 0.75,
+      "coverage_error": 0.15000000000000002,
+      "mean_interval_half_width": 1.707504632940674,
+      "normalized_rmse": 1.3322488384804847,
+      "beneficial_class_rate": 0.45
+    }
+  },
+  "aggregate": {
+    "DE_rank_top": {
+      "runs": 10,
+      "wins": 3,
+      "ties": 0,
+      "losses": 7,
+      "negative_transfer_rate": 0.7,
+      "negative_transfer_rate_wilson_95": [
+        0.39677814746114537,
+        0.8922087325936989
+      ],
+      "abstention_rate": 0.0,
+      "semantic_evaluations": 20,
+      "mean_relative_change": 0.05564375974636715,
+      "mean_relative_change_bootstrap_95": [
+        -0.0035400924166176712,
+        0.11453872143219285
+      ],
+      "median_relative_change": 0.03634382304320895,
+      "budget_efficiency_relative_gain_per_semantic_evaluation": -0.027821879873183575
+    },
+    "DE_calibrated_regret": {
+      "runs": 10,
+      "wins": 4,
+      "ties": 1,
+      "losses": 5,
+      "negative_transfer_rate": 0.5,
+      "negative_transfer_rate_wilson_95": [
+        0.236593090512564,
+        0.7634069094874361
+      ],
+      "abstention_rate": 0.1,
+      "semantic_evaluations": 15,
+      "mean_relative_change": -0.004404860017167553,
+      "mean_relative_change_bootstrap_95": [
+        -0.08045101663627162,
+        0.065757858086296
+      ],
+      "median_relative_change": 0.006003574384671642,
+      "budget_efficiency_relative_gain_per_semantic_evaluation": 0.0029365733447783687
+    },
+    "PSO_rank_top": {
+      "runs": 10,
+      "wins": 3,
+      "ties": 2,
+      "losses": 5,
+      "negative_transfer_rate": 0.5,
+      "negative_transfer_rate_wilson_95": [
+        0.236593090512564,
+        0.7634069094874361
+      ],
+      "abstention_rate": 0.0,
+      "semantic_evaluations": 10,
+      "mean_relative_change": -0.013687522331503721,
+      "mean_relative_change_bootstrap_95": [
+        -0.08684612324465846,
+        0.046940317736174214
+      ],
+      "median_relative_change": 0.003038299226719248,
+      "budget_efficiency_relative_gain_per_semantic_evaluation": 0.013687522331503721
+    },
+    "PSO_calibrated_regret": {
+      "runs": 10,
+      "wins": 0,
+      "ties": 10,
+      "losses": 0,
+      "negative_transfer_rate": 0.0,
+      "negative_transfer_rate_wilson_95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "abstention_rate": 1.0,
+      "semantic_evaluations": 0,
+      "mean_relative_change": 0.0,
+      "mean_relative_change_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "median_relative_change": 0.0,
+      "budget_efficiency_relative_gain_per_semantic_evaluation": 0.0
+    }
+  },
+  "per_function": {
+    "2": {
+      "DE_rank_top": {
+        "runs": 5,
+        "wins": 2,
+        "ties": 0,
+        "losses": 3,
+        "negative_transfer_rate": 0.6,
+        "negative_transfer_rate_wilson_95": [
+          0.2307242812760128,
+          0.882379225767352
+        ],
+        "abstention_rate": 0.0,
+        "semantic_evaluations": 10,
+        "mean_relative_change": 0.00036972761400365514,
+        "mean_relative_change_bootstrap_95": [
+          -0.06320738636972176,
+          0.047137045854944756
+        ],
+        "median_relative_change": 0.02371212500320397,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": -0.00018486380700182757
+      },
+      "DE_calibrated_regret": {
+        "runs": 5,
+        "wins": 2,
+        "ties": 1,
+        "losses": 2,
+        "negative_transfer_rate": 0.4,
+        "negative_transfer_rate_wilson_95": [
+          0.11762077423264783,
+          0.769275718723987
+        ],
+        "abstention_rate": 0.2,
+        "semantic_evaluations": 7,
+        "mean_relative_change": 0.014369568900704052,
+        "mean_relative_change_bootstrap_95": [
+          -0.05916524881187959,
+          0.1088489241123233
+        ],
+        "median_relative_change": 0.0,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": -0.01026397778621718
+      },
+      "PSO_rank_top": {
+        "runs": 5,
+        "wins": 2,
+        "ties": 0,
+        "losses": 3,
+        "negative_transfer_rate": 0.6,
+        "negative_transfer_rate_wilson_95": [
+          0.2307242812760128,
+          0.882379225767352
+        ],
+        "abstention_rate": 0.0,
+        "semantic_evaluations": 5,
+        "mean_relative_change": -0.04298265307563794,
+        "mean_relative_change_bootstrap_95": [
+          -0.174750792441839,
+          0.08393654395682307
+        ],
+        "median_relative_change": 0.0323657912132297,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": 0.04298265307563794
+      },
+      "PSO_calibrated_regret": {
+        "runs": 5,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0,
+        "negative_transfer_rate": 0.0,
+        "negative_transfer_rate_wilson_95": [
+          0.0,
+          0.43448246478317476
+        ],
+        "abstention_rate": 1.0,
+        "semantic_evaluations": 0,
+        "mean_relative_change": 0.0,
+        "mean_relative_change_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "median_relative_change": 0.0,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": 0.0
+      }
+    },
+    "10": {
+      "DE_rank_top": {
+        "runs": 5,
+        "wins": 1,
+        "ties": 0,
+        "losses": 4,
+        "negative_transfer_rate": 0.8,
+        "negative_transfer_rate_wilson_95": [
+          0.37553462976252533,
+          0.9637758913675698
+        ],
+        "abstention_rate": 0.0,
+        "semantic_evaluations": 10,
+        "mean_relative_change": 0.11091779187873066,
+        "mean_relative_change_bootstrap_95": [
+          0.035120769735346426,
+          0.18173949420168395
+        ],
+        "median_relative_change": 0.17029611011163653,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": -0.05545889593936533
+      },
+      "DE_calibrated_regret": {
+        "runs": 5,
+        "wins": 2,
+        "ties": 0,
+        "losses": 3,
+        "negative_transfer_rate": 0.6,
+        "negative_transfer_rate_wilson_95": [
+          0.2307242812760128,
+          0.882379225767352
+        ],
+        "abstention_rate": 0.0,
+        "semantic_evaluations": 8,
+        "mean_relative_change": -0.02317928893503916,
+        "mean_relative_change_bootstrap_95": [
+          -0.1516272431944456,
+          0.0813928952891968
+        ],
+        "median_relative_change": 0.012007148769343284,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": 0.014487055584399475
+      },
+      "PSO_rank_top": {
+        "runs": 5,
+        "wins": 1,
+        "ties": 2,
+        "losses": 2,
+        "negative_transfer_rate": 0.4,
+        "negative_transfer_rate_wilson_95": [
+          0.11762077423264783,
+          0.769275718723987
+        ],
+        "abstention_rate": 0.0,
+        "semantic_evaluations": 5,
+        "mean_relative_change": 0.0156076084126305,
+        "mean_relative_change_bootstrap_95": [
+          -0.0021821532157556274,
+          0.04657433907227172
+        ],
+        "median_relative_change": 0.0,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": -0.0156076084126305
+      },
+      "PSO_calibrated_regret": {
+        "runs": 5,
+        "wins": 0,
+        "ties": 5,
+        "losses": 0,
+        "negative_transfer_rate": 0.0,
+        "negative_transfer_rate_wilson_95": [
+          0.0,
+          0.43448246478317476
+        ],
+        "abstention_rate": 1.0,
+        "semantic_evaluations": 0,
+        "mean_relative_change": 0.0,
+        "mean_relative_change_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "median_relative_change": 0.0,
+        "budget_efficiency_relative_gain_per_semantic_evaluation": 0.0
+      }
+    }
+  },
+  "nondegenerate_admission": {
+    "DE_2": true,
+    "DE_10": true,
+    "PSO_2": false,
+    "PSO_10": false
+  },
+  "general_acquisition_claim_eligible": false,
+  "claim_boundary": "No general acquisition claim unless both unseen functions and both backbones show non-degenerate admission and uncertainty coverage is reported.",
+  "artifact_sha256": "896d53ab70e3da4ed5543c2e7c41a6d5062fa55dad1005a7823e77e75f5f1200"
+}

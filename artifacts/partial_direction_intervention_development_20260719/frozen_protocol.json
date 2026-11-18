@@ -1,0 +1,57 @@
+{
+  "protocol_id": "CSA-PARTIAL-DIRECTION-INTERVENTION-DEVELOPMENT-2026-07-19",
+  "status": "frozen_before_execution",
+  "analysis_role": "development_only",
+  "source_protocol_sha256": [
+    "c4e0c60f5949ebd8ec2c2d2d2f8b4fdfbc1c54c28b6c69584effbc9f903c8450",
+    "2f244f74055d8f508176fa39ea92428deb7963a5135ce8dffe8d5f6ded95c4ad"
+  ],
+  "benchmark": {
+    "family": "BBOB",
+    "functions": [
+      1,
+      8,
+      15,
+      21
+    ],
+    "instances": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "dimension": 10
+  },
+  "intervention": {
+    "alphas": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "diversity_floor": 0.95,
+    "continuations_per_state": 10,
+    "DE": "add alpha times the selected semantic delta to one native best-target trial vector",
+    "PSO": "add alpha times the selected semantic delta to one native global-best velocity",
+    "no_worst_individual_replacement": true,
+    "native_selection_controls_acceptance": true
+  },
+  "pairing": "same reconstructed state, continuation seed, and numerical budget",
+  "gate": {
+    "accepted_interventions_nonzero": true,
+    "wins_exceed_losses": true,
+    "negative_transfer_rate_at_most_0_25": true
+  },
+  "selection_rule": "Among passing alphas choose lowest negative-transfer rate, then lowest mean relative change, then the smallest alpha.",
+  "stopping_rule": "Execute all instances 1--13 and all three alphas without early stopping.",
+  "future_boundary": "Do not capture instances 14--21 unless at least one backbone-alpha pair passes every gate.",
+  "protocol_sha256": "194c9816eec95a7033943585b026cc16733753f690c8716c0d5dc186f78974c9"
+}

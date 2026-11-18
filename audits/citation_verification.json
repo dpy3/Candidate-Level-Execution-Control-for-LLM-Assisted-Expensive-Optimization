@@ -1,0 +1,532 @@
+{
+  "summary": {
+    "total": 34,
+    "verified": 11,
+    "suspicious": 20,
+    "not_found": 3
+  },
+  "citations": [
+    {
+      "key": "storn1997differential",
+      "title": "Differential evolution--a simple and efficient heuristic for global optimization over continuous spaces",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "CrossRef",
+        "OpenAlex"
+      ],
+      "best_match_title": "Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces",
+      "best_match_similarity": 0.75,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "pan2026deexp",
+      "title": "Differential evolution with exponential crossover: A survey",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Differential evolution with exponential crossover: A survey",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "jiang2026l2dmso",
+      "title": "Large language model-driven dynamic communication strategy generation for multi-swarm particle swarm optimization",
+      "status": "verified",
+      "confidence": 0.9,
+      "sources_found": [
+        "CrossRef",
+        "OpenAlex"
+      ],
+      "best_match_title": "Large language model-driven dynamic communication strategy generation for multi-swarm particle swarm optimization",
+      "best_match_similarity": 1.0,
+      "red_flags": [
+        "Single-word author name: 'Sna' (may be incomplete)"
+      ],
+      "notes": [
+        "Author overlap: 75%"
+      ]
+    },
+    {
+      "key": "kennedy1995particle",
+      "title": "Particle swarm optimization",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "CrossRef",
+        "OpenAlex"
+      ],
+      "best_match_title": "Particle swarm optimization",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "yang2023large",
+      "title": "Large language models as optimizers",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "CrossRef",
+        "OpenAlex"
+      ],
+      "best_match_title": "Large Language Models as Optimizers",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "kaveh2010advances",
+      "title": "A novel heuristic optimization method: charged system search",
+      "status": "verified",
+      "confidence": 0.9,
+      "sources_found": [
+        "CrossRef",
+        "OpenAlex"
+      ],
+      "best_match_title": "A novel heuristic optimization method: charged system search",
+      "best_match_similarity": 1.0,
+      "red_flags": [
+        "Title matches common AI-hallucination pattern (overly generic)"
+      ],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "bergstra2011algorithms",
+      "title": "Algorithms for hyper-parameter optimization",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "Semantic Scholar",
+        "OpenAlex"
+      ],
+      "best_match_title": "Algorithms for Hyper-Parameter Optimization",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "jin2011surrogate",
+      "title": "Surrogate-assisted evolutionary computation: Recent advances and future challenges",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "CrossRef",
+        "Semantic Scholar",
+        "OpenAlex"
+      ],
+      "best_match_title": "Surrogate-assisted evolutionary computation: Recent advances and future challenges",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 50%"
+      ]
+    },
+    {
+      "key": "ma2023eureka",
+      "title": "Eureka: Human-level reward design via coding large language models",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "Semantic Scholar",
+        "OpenAlex"
+      ],
+      "best_match_title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "awad2017ensemble",
+      "title": "Ensemble sinusoidal differential covariance matrix adaptation with Euclidean neighborhood for solving CEC2017",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "CrossRef",
+        "OpenAlex"
+      ],
+      "best_match_title": "Ensemble sinusoidal differential covariance matrix adaptation with Euclidean neighborhood for solving CEC2017 benchmark problems",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "jones1998efficient",
+      "title": "Efficient global optimization of expensive black-box functions",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Efficient Global Optimization of Expensive Black-Box Functions",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "srinivas2010gaussian",
+      "title": "Gaussian Process Optimization in the Bandit Setting: No Regret and Experimental Design",
+      "status": "not_found",
+      "confidence": 0.0,
+      "sources_found": [],
+      "best_match_title": null,
+      "best_match_similarity": 0.0,
+      "red_flags": [],
+      "notes": [
+        "NOT FOUND in any database — likely hallucinated"
+      ]
+    },
+    {
+      "key": "simpson2001metamodels",
+      "title": "Metamodels for Computer-Based Engineering Design: Survey and Recommendations",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Metamodels for Computer-based Engineering Design: Survey and recommendations",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "regis2014epRbf",
+      "title": "Evolutionary Programming for High-Dimensional Constrained Expensive Black-Box Optimization Using Radial Basis Functions",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Evolutionary Programming for High-Dimensional Constrained Expensive Black-Box Optimization Using Radial Basis Functions",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "tanabe2013success",
+      "title": "Success-history based parameter adaptation for differential evolution",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Success-history based parameter adaptation for Differential Evolution",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "tanabe2014improving",
+      "title": "Improving the search performance of SHADE",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Improving the search performance of SHADE using linear population size reduction",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "eoh2024",
+      "title": "Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "Semantic Scholar"
+      ],
+      "best_match_title": "Evolution of Heuristics: Towards Efficient Automatic Algorithm Design Using Large Language Model",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "evoagent2024",
+      "title": "EvoAgent",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "reevo2024",
+      "title": "ReEvo",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "ReEvo: Large Language Models as Hyper-Heuristics with Reflective Evolution",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "coello2002theoretical",
+      "title": "Theoretical and numerical constraint-handling techniques used with evolutionary algorithms: a survey",
+      "status": "not_found",
+      "confidence": 0.0,
+      "sources_found": [],
+      "best_match_title": null,
+      "best_match_similarity": 0.0,
+      "red_flags": [],
+      "notes": [
+        "NOT FOUND in any database — likely hallucinated"
+      ]
+    },
+    {
+      "key": "mezura2011constraintHandling",
+      "title": "Constraint-Handling in Nature-Inspired Numerical Optimization: Past, Present and Future",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Constraint-handling in nature-inspired numerical optimization: Past, present and future",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "runarsson2000stochastic",
+      "title": "Stochastic ranking for constrained evolutionary optimization",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "CrossRef",
+        "Semantic Scholar"
+      ],
+      "best_match_title": "Stochastic ranking for constrained evolutionary optimization",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 100%"
+      ]
+    },
+    {
+      "key": "mesbah2018stochastic",
+      "title": "Stochastic model predictive control: An overview and perspectives for future research",
+      "status": "verified",
+      "confidence": 1.0,
+      "sources_found": [
+        "CrossRef",
+        "Semantic Scholar"
+      ],
+      "best_match_title": "Stochastic Model Predictive Control: An Overview and Perspectives for Future Research",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Author overlap: 50%"
+      ]
+    },
+    {
+      "key": "ddea2019",
+      "title": "Offline Data-Driven Evolutionary Optimization Using Selective Surrogate Ensembles",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Offline Data-Driven Evolutionary Optimization Using Selective Surrogate Ensembles",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "llm4eo2025survey",
+      "title": "A Systematic Survey on Large Language Models for Evolutionary Optimization: From Modeling to Solving",
+      "status": "not_found",
+      "confidence": 0.0,
+      "sources_found": [],
+      "best_match_title": null,
+      "best_match_similarity": 0.0,
+      "red_flags": [
+        "Title matches common AI-hallucination pattern (overly generic)"
+      ],
+      "notes": [
+        "NOT FOUND in any database — likely hallucinated"
+      ]
+    },
+    {
+      "key": "trustagent2024",
+      "title": "TrustAgent",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "TrustAgent: Towards Safe and Trustworthy LLM-based Agents",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "longfact2024",
+      "title": "Long-form factuality in large language models",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Long-form factuality in large language models",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "wsn-survey2025",
+      "title": "Addressing Real-World Localization Challenges in Wireless Sensor Networks: A Study of Swarm-Based Optimization Techniques",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Addressing Real-World Localization Challenges in Wireless Sensor Networks: A Study of Swarm-Based Optimization Techniques",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "uav-survey2024",
+      "title": "A multiobjective optimization algorithm for safety and optimality of 3-D",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "A Multiobjective Optimization Algorithm for Safety and Optimality of 3-D Route Planning in UAV",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "liu2024lmea",
+      "title": "Large Language Models as Evolutionary Optimizers",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Large Language Models as Evolutionary Optimizers",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "hao2024llmsurrogate",
+      "title": "Large Language Models as Surrogate Models in Evolutionary Algorithms: A Preliminary Study",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Large language models as surrogate models in evolutionary algorithms: A preliminary study",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "liu2024llambo",
+      "title": "Large Language Models to Enhance Bayesian Optimization",
+      "status": "suspicious",
+      "confidence": 0.57,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "Bayesian Optimization and Large Language Models",
+      "best_match_similarity": 0.83,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "vanstein2025llamea",
+      "title": "LLaMEA",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    },
+    {
+      "key": "yin2024adollm",
+      "title": "ADO-LLM",
+      "status": "suspicious",
+      "confidence": 0.6,
+      "sources_found": [
+        "CrossRef"
+      ],
+      "best_match_title": "ADO-LLM: Analog Design Bayesian Optimization with In-Context Learning of Large Language Models",
+      "best_match_similarity": 1.0,
+      "red_flags": [],
+      "notes": [
+        "Found in only 1 source — verify manually"
+      ]
+    }
+  ]
+}

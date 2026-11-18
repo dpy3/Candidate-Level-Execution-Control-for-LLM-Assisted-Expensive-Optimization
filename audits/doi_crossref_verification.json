@@ -1,0 +1,194 @@
+[
+  {
+    "key": "pan2026deexp",
+    "doi": "10.1016/j.cosrev.2026.100990",
+    "http": 200,
+    "crossref_title": "Differential evolution with exponential crossover: A survey",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "jiang2026l2dmso",
+    "doi": "10.1016/j.engappai.2026.113920",
+    "http": 200,
+    "crossref_title": "Large language model-driven dynamic communication strategy generation for multi-swarm particle swarm optimization",
+    "crossref_year": 2026,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "kennedy1995particle",
+    "doi": "10.1109/ICNN.1995.488968",
+    "http": 0,
+    "crossref_title": "",
+    "crossref_year": null,
+    "crossref_type": ""
+  },
+  {
+    "key": "awad2017ensemble",
+    "doi": "10.1109/CEC.2017.7969336",
+    "http": 200,
+    "crossref_title": "Ensemble sinusoidal differential covariance matrix adaptation with Euclidean neighborhood for solving CEC2017 benchmark problems",
+    "crossref_year": 2017,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "simpson2001metamodels",
+    "doi": "10.1007/PL00007198",
+    "http": 200,
+    "crossref_title": "Metamodels for Computer-based Engineering Design: Survey and recommendations",
+    "crossref_year": 2001,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "regis2014epRbf",
+    "doi": "10.1109/TEVC.2013.2262111",
+    "http": 200,
+    "crossref_title": "Evolutionary Programming for High-Dimensional Constrained Expensive Black-Box Optimization Using Radial Basis Functions",
+    "crossref_year": 2014,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "tanabe2013success",
+    "doi": "10.1109/CEC.2013.6557555",
+    "http": 200,
+    "crossref_title": "Success-history based parameter adaptation for Differential Evolution",
+    "crossref_year": 2013,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "tanabe2014improving",
+    "doi": "10.1109/CEC.2014.6900380",
+    "http": 200,
+    "crossref_title": "Improving the search performance of SHADE using linear population size reduction",
+    "crossref_year": 2014,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "evoagent2024",
+    "doi": "10.18653/v1/2025.naacl-long.315",
+    "http": 200,
+    "crossref_title": "EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms",
+    "crossref_year": 2025,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "reevo2024",
+    "doi": "10.52202/079017-1381",
+    "http": 200,
+    "crossref_title": "ReEvo: Large Language Models as Hyper-Heuristics with Reflective Evolution",
+    "crossref_year": 2024,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "coello2002theoretical",
+    "doi": "10.1016/S0045-7949(01)00323-1",
+    "http": 404,
+    "crossref_title": "",
+    "crossref_year": null,
+    "crossref_type": ""
+  },
+  {
+    "key": "mezura2011constraintHandling",
+    "doi": "10.1016/j.swevo.2011.10.001",
+    "http": 200,
+    "crossref_title": "Constraint-handling in nature-inspired numerical optimization: Past, present and future",
+    "crossref_year": 2011,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "runarsson2000stochastic",
+    "doi": "10.1109/4235.873238",
+    "http": 200,
+    "crossref_title": "Stochastic ranking for constrained evolutionary optimization",
+    "crossref_year": 2000,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "mesbah2018stochastic",
+    "doi": "10.1109/MCS.2016.2602087",
+    "http": 200,
+    "crossref_title": "Stochastic Model Predictive Control: An Overview and Perspectives for Future Research",
+    "crossref_year": 2016,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "ddea2019",
+    "doi": "10.1109/TEVC.2018.2834881",
+    "http": 200,
+    "crossref_title": "Offline Data-Driven Evolutionary Optimization Using Selective Surrogate Ensembles",
+    "crossref_year": 2019,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "trustagent2024",
+    "doi": "10.18653/v1/2024.findings-emnlp.585",
+    "http": 200,
+    "crossref_title": "TrustAgent: Towards Safe and Trustworthy LLM-based Agents",
+    "crossref_year": 2024,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "longfact2024",
+    "doi": "10.52202/079017-2567",
+    "http": 200,
+    "crossref_title": "Long-form factuality in large language models",
+    "crossref_year": 2024,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "wsn-survey2025",
+    "doi": "10.3390/automation6030040",
+    "http": 200,
+    "crossref_title": "Addressing Real-World Localization Challenges in Wireless Sensor Networks: A Study of Swarm-Based Optimization Techniques",
+    "crossref_year": 2025,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "uav-survey2024",
+    "doi": "10.1109/TAES.2024.3364139",
+    "http": 200,
+    "crossref_title": "A Multiobjective Optimization Algorithm for Safety and Optimality of 3-D Route Planning in UAV",
+    "crossref_year": 2024,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "liu2024lmea",
+    "doi": "10.1109/CEC60901.2024.10611913",
+    "http": 200,
+    "crossref_title": "Large Language Models as Evolutionary Optimizers",
+    "crossref_year": 2024,
+    "crossref_type": "proceedings-article"
+  },
+  {
+    "key": "hao2024llmsurrogate",
+    "doi": "10.1016/j.swevo.2024.101741",
+    "http": 200,
+    "crossref_title": "Large language models as surrogate models in evolutionary algorithms: A preliminary study",
+    "crossref_year": 2024,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "liu2024llambo",
+    "doi": "10.48550/arXiv.2402.03921",
+    "http": 404,
+    "crossref_title": "",
+    "crossref_year": null,
+    "crossref_type": ""
+  },
+  {
+    "key": "vanstein2025llamea",
+    "doi": "10.1109/TEVC.2024.3497793",
+    "http": 200,
+    "crossref_title": "LLaMEA: A Large Language Model Evolutionary Algorithm for Automatically Generating Metaheuristics",
+    "crossref_year": 2025,
+    "crossref_type": "journal-article"
+  },
+  {
+    "key": "yin2024adollm",
+    "doi": "10.1145/3676536.3676816",
+    "http": 200,
+    "crossref_title": "ADO-LLM: Analog Design Bayesian Optimization with In-Context Learning of Large Language Models",
+    "crossref_year": 2024,
+    "crossref_type": "proceedings-article"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "protocol_id": "CSA-DIRECTIONAL-BBOB-POWER-EXTENSION-2026-07-18",
+  "status": "frozen_before_capture",
+  "benchmark": {
+    "family": "BBOB",
+    "implementation": "IOHprofiler ioh",
+    "ioh_version": "0.3.22",
+    "dimension": 10,
+    "function_ids": [
+      1,
+      8,
+      15,
+      21
+    ],
+    "function_roles": {
+      "1": "Sphere",
+      "8": "Rosenbrock",
+      "15": "rotated Rastrigin",
+      "21": "Gallagher 101 peaks"
+    },
+    "instances": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "exclusion": "Instances 1--5 belong to the preceding confirmation and are not reused."
+  },
+  "directional_source": {
+    "model_id": "gpt-5.4",
+    "prompt_version": "direction-step-v1",
+    "one_backbone_specific_call_per_case": true,
+    "proposals_per_call": 3,
+    "output_contract": "direction plus local step scale; no absolute coordinates",
+    "host_candidate_construction": true
+  },
+  "backbones": {
+    "DE": {
+      "state_budget": 60,
+      "final_budget": 241,
+      "risk_multiplier": 1.0
+    },
+    "PSO": {
+      "state_budget": 60,
+      "final_budget": 191,
+      "risk_multiplier": 0.5
+    }
+  },
+  "admission": {
+    "rule": "minimum GP upper regret must be <= 0",
+    "reserved_evaluation": 1,
+    "strict_zero_reserved_action": "incumbent re-evaluation",
+    "commit_rule": "population commit only after true incumbent improvement",
+    "runtime_authorization": "one-use certificate"
+  },
+  "development_boundary": {
+    "family": "CEC 2022 only",
+    "candidate_quality": {
+      "DE_improvement_rate": 0.47619047619047616,
+      "PSO_improvement_rate": 0.3492063492063492
+    },
+    "risk_policy": {
+      "DE": "k=1.0",
+      "PSO": "k=0.5"
+    }
+  },
+  "success_gate": {
+    "evaluated_semantic_candidates_nonzero": true,
+    "wins_exceed_losses": true,
+    "negative_transfer_rate_at_most_0_25": true,
+    "mean_effect_bootstrap_upper_below_zero": true,
+    "all_traces_csa_compliant": true,
+    "minimum_paired_cases_per_backbone": 30
+  },
+  "stopping_rule": "Execute all 64 fresh backbone-case pairs (4 functions x 8 unseen instances x 2 backbones); no threshold refitting, early stopping, or function substitution.",
+  "claim_rule": "Final-performance effectiveness is eligible only for a backbone passing every frozen gate on this power-extension batch.",
+  "protocol_sha256": "2f244f74055d8f508176fa39ea92428deb7963a5135ce8dffe8d5f6ded95c4ad"
+}

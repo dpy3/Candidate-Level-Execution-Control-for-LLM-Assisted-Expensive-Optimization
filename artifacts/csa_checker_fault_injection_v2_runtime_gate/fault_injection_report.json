@@ -1,0 +1,85 @@
+{
+  "protocol_id": "CSA-CHECKER-FAULT-INJECTION-RUNTIME-GATE-2026-07-15",
+  "seed": 20260715,
+  "trials_per_fault": 100,
+  "clean_trials": 100,
+  "clean_passes": 100,
+  "false_positive_rate": 0.0,
+  "fault_trials": 600,
+  "faults_detected": 600,
+  "overall_detection_rate": 1.0,
+  "expected_codes_detected": 600,
+  "expected_code_rate": 1.0,
+  "fault_results": {
+    "forged_state": {
+      "trials": 100,
+      "expected_violation": "admitted_without_selected",
+      "detected": 100,
+      "detection_rate": 1.0,
+      "expected_code_detected": 100,
+      "expected_code_rate": 1.0,
+      "observed_violation_counts": {
+        "admitted_without_selected": 100
+      }
+    },
+    "skipped_admission": {
+      "trials": 100,
+      "expected_violation": "evaluated_without_admitted",
+      "detected": 100,
+      "detection_rate": 1.0,
+      "expected_code_detected": 100,
+      "expected_code_rate": 1.0,
+      "observed_violation_counts": {
+        "evaluated_without_admitted": 100,
+        "authorization_without_admission": 100
+      }
+    },
+    "budget_mismatch": {
+      "trials": 100,
+      "expected_violation": "resource_mismatch",
+      "detected": 100,
+      "detection_rate": 1.0,
+      "expected_code_detected": 100,
+      "expected_code_rate": 1.0,
+      "observed_violation_counts": {
+        "resource_mismatch": 100
+      }
+    },
+    "candidate_id_replacement": {
+      "trials": 100,
+      "expected_violation": "candidate_identity_mismatch",
+      "detected": 100,
+      "detection_rate": 1.0,
+      "expected_code_detected": 100,
+      "expected_code_rate": 1.0,
+      "observed_violation_counts": {
+        "evaluated_without_admitted": 100,
+        "candidate_identity_mismatch": 100,
+        "evaluated_without_runtime_authorization": 100
+      }
+    },
+    "missing_predecessor": {
+      "trials": 100,
+      "expected_violation": "selected_without_validated",
+      "detected": 100,
+      "detection_rate": 1.0,
+      "expected_code_detected": 100,
+      "expected_code_rate": 1.0,
+      "observed_violation_counts": {
+        "selected_without_validated": 100
+      }
+    },
+    "forged_authorization_token": {
+      "trials": 100,
+      "expected_violation": "invalid_runtime_authorization_certificate",
+      "detected": 100,
+      "detection_rate": 1.0,
+      "expected_code_detected": 100,
+      "expected_code_rate": 1.0,
+      "observed_violation_counts": {
+        "invalid_runtime_authorization_certificate": 100,
+        "evaluated_without_runtime_authorization": 100
+      }
+    }
+  }
+}
